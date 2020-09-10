@@ -2,6 +2,55 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.5.6](https://github.com/ffxiv-teamcraft/simulator/compare/v2.5.5...v2.5.6) (2020-09-10)
+
+
+
+### [2.5.5](https://github.com/ffxiv-teamcraft/simulator/compare/v2.5.4...v2.5.5) (2020-08-19)
+
+
+### Bug Fixes
+
+* **importer:** accept basicSynth2 as a Basic Synthesis json value ([d50e2b1](https://github.com/ffxiv-teamcraft/simulator/commit/d50e2b1))
+
+
+
+### [2.5.4](https://github.com/ffxiv-teamcraft/simulator/compare/v2.5.3...v2.5.4) (2020-08-16)
+
+
+### Bug Fixes
+
+* **buffs:** better fix for failing buffs and other actions ([c18d318](https://github.com/ffxiv-teamcraft/simulator/commit/c18d318))
+
+
+
+### [2.5.3](https://github.com/ffxiv-teamcraft/simulator/compare/v2.5.2...v2.5.3) (2020-08-16)
+
+
+### Bug Fixes
+
+* **buffs:** fixed an issue with buffs being ticked when ToT or buff action is skipped ([9380b41](https://github.com/ffxiv-teamcraft/simulator/commit/9380b41))
+
+
+
+### [2.5.2](https://github.com/ffxiv-teamcraft/simulator/compare/v2.5.1...v2.5.2) (2020-07-15)
+
+
+### Bug Fixes
+
+* **byregots-blessing:** better fix for fail cause detection. ([1d711ef](https://github.com/ffxiv-teamcraft/simulator/commit/1d711ef))
+
+
+
+### [2.5.1](https://github.com/ffxiv-teamcraft/simulator/compare/v2.5.0...v2.5.1) (2020-07-15)
+
+
+### Bug Fixes
+
+* **byregots-blessing:** fixed fail cause detection. ([b23c877](https://github.com/ffxiv-teamcraft/simulator/commit/b23c877))
+
+
+
 ## [2.5.0](https://github.com/ffxiv-teamcraft/simulator/compare/v2.4.2...v2.5.0) (2020-04-18)
 
 

@@ -30,6 +30,14 @@ export abstract class CraftingAction {
     return this.getType() === ActionType.BUFF ? 2 : 3;
   }
 
+  /**
+   * If an action is skipped on fail, it doesn't tick buffs.
+   * Example: Observe, Master's Mend, buffs.
+   */
+  public skipOnFail(): boolean {
+    return false;
+  }
+
   public requiresGood(): boolean {
     return false;
   }
@@ -99,6 +107,9 @@ export abstract class CraftingAction {
     linear?: boolean,
     safeMode?: boolean
   ): SimulationFailCause | undefined {
+    if (simulationState.success) {
+      return undefined;
+    }
     const levelRequirement = this.getLevelRequirement();
     const craftsmanshipRequirement = simulationState.recipe.craftsmanshipReq;
     const controlRequirement = simulationState.recipe.controlReq;
