@@ -14,3 +14,7 @@ docs
 /coverage
 *.csv
 ./*.js
+
+/nppBackup
+*/nppBackup
+.gitignore

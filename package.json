@@ -26,7 +26,6 @@
     "copyfiles": "copyfiles package.json LICENSE README.md CHANGELOG.md dist",
     "build": "tsc --module commonjs --declaration && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
     "start": "rollup -c rollup.config.ts -w",
-    "api": "node api/app.js",
     "test": "jest --coverage --maxWorkers=2",
     "test:watch": "jest --coverage --watch",
     "release:git": "npm run build && standard-version && git push --follow-tags origin master",
